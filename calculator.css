@@ -1,0 +1,155 @@
+.parent{
+    height: 495px;
+    width: 425px;
+    background-color: rgb(157, 203, 206);
+    border: black solid;
+    position: relative;
+    margin-left: 40%;
+    border-radius: 10px;
+    
+}
+
+#result{
+    height: 50px;
+    border: black solid;
+    width: 380px;
+    margin: 10px;
+    margin-left: 20px;
+    background-color: rgb(221, 215, 39);
+    border-radius: 10px;
+
+}
+
+.boxes{
+    height: 400px;
+    width: 400px;
+    margin: 10px;
+    border: black solid;
+    background-color: rgb(187, 72, 213);
+    display: flex;
+    border-radius: 10px;
+
+}
+
+.col{
+    height: 60px;
+    width:60px;
+    margin: 10px;
+    margin-left: 20px;
+    background-color: cornflowerblue;
+   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: larger;
+    text-decoration: black;
+    border-radius: 10px;
+   
+}
+.col1{
+   
+    position: absolute;
+    
+   
+}
+.col2{
+    
+    position: absolute;
+    left: 115px;
+    
+}
+.col3{
+   
+    position: absolute;
+    left: 210px;
+}
+.col4{
+    
+    position: absolute;
+    left: 310px;
+}
+.col5{
+   
+    position: absolute;
+    top: 160px;
+}
+.col6{
+   
+    position: absolute;
+    top: 160px;
+    left: 115px;
+}
+.col7{
+  
+    position: absolute;
+    top: 160px;
+    left: 210px;
+}
+.col8{
+    
+    position: absolute;
+    top: 160px;
+    left: 310px;
+}
+.col9{
+    
+    position: absolute;
+    top: 240px;
+    
+}
+.col10{
+    
+    position: absolute;
+    top: 240px;
+    left: 115px;
+}
+.col11{
+    
+    position: absolute;
+    top: 240px;
+    left: 210px;
+}
+.col12{
+    
+    position: absolute;
+    top: 240px;
+    left: 310px;
+}
+.col13{
+    
+    position: absolute;
+    top: 320px;
+}
+.col14{
+    
+    position: absolute;
+    top: 320px;
+    left: 115px;
+}
+.col15{
+   
+    position: absolute;
+    top: 320px;
+    left: 210px;
+}
+
+.col16{
+    
+    position: absolute;
+    top: 320px;
+    left: 310px;
+    height: 140px;
+    background-color: chocolate;
+   
+}
+.col17{
+    
+    position: absolute;
+    top: 400px;
+    width: 160px;
+}
+.col18{
+    
+    position: absolute;
+    top: 400px;
+    left: 210px;
+}
+
+

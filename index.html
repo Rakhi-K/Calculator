@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./calculator.css">
+   
+</head>
+
+<body>
+    <h2 style="text-align: center;">CALCULATOR</h2>
+
+    <div class="parent">
+        <input type="text" id="result">
+        
+        <div class="boxes">
+            <button onclick="clearBox()" class="col col1">
+                   MC
+            </button>
+            <button  class="col col2">
+                   M+
+            </button>
+            <button onclick="displayValue('/')" class="col col3">
+                      /
+            </button>
+            <button onclick="displayValue('*')" class="col col4">
+                     *
+            </button>
+            <button onclick="displayValue(7)" class="col col5">
+                  7
+            </button>
+            <button onclick="displayValue(8)" class="col col6">
+                    8
+            </button>
+            <button onclick="displayValue(9)" class="col col7">
+                   9
+            </button>
+            <button onclick="displayValue('-')" class="col col8">
+                      -
+            </button>
+            <button onclick="displayValue(4)" class="col col9">
+                  4
+            </button>
+            <button onclick="displayValue(5)" class="col col10">
+                      5
+            </button>
+            <button  onclick="displayValue(6)" class="col col11">
+                    6
+            </button>
+            <button onclick="displayValue('+')" class="col col12">
+                      +
+            </button>
+            <button  onclick="displayValue(1)"class="col col13">
+                  1
+            </button>
+            <button onclick="displayValue(2)" class="col col14">
+                    2
+            </button>
+            <button onclick="displayValue(3)" class="col col15">
+                     3
+            </button>
+            <button  onclick=" evaluateExpression()" class="col col16">
+                      =
+            </button>
+            <button onclick="displayValue(0)" class="col col17">
+                     0
+            </button>
+            <button  onclick="displayValue('.')" class="col col18">
+                       .
+            </button>
+        </div>
+
+    </div>
+</body>
+    <script src="./script.js"></script>
+</html>
